@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Nov 15 11:21:36 2024
-
-@author: 14211
-"""
-
 import os
 import pandas as pd
 import quandl
