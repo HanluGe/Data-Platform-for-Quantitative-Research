@@ -59,6 +59,7 @@ manager.process_quandl_table(
     date_col='per_end_date',
     sort_by=['per_end_date']
 )
+```
 
 ### Data Catalog
 
@@ -130,6 +131,7 @@ datasets = catalog.search_by_metadata("source", "Quandl")
 
 # Retrieve Parquet dataset
 df = catalog.retrieve_data("close.1day")
+```
 
 ### Data Workbench
 
@@ -189,6 +191,7 @@ fc_data = workbench.retrieve_data_by_category(
     start_date="2020-01-01",
     end_date="2024-11-17"
 )
+```
 
 ### Quant Data Models
 
