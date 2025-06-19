@@ -217,7 +217,7 @@ Used for high-frequency price and volume data across minute/hour intervals.
 **Key Method:**
 ```python
 aggregate_by_interval(interval: str) → pd.DataFrame
-
+```
 ---
 
 #### Example Usage
