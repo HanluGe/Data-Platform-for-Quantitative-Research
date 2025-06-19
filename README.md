@@ -29,12 +29,14 @@ The Data Lake serves as the central storage system for both raw and processed fi
 - Supports batch ingestion and custom table configurations
 
 **Storage Path Example:**
+```
 /data_lake/equity/
 ├── AAPL/
 │ ├── intraday.parquet
 │ ├── ZACKS_FC.parquet
 ├── TSLA/
 │ ├── news.parquet
+```
 
 **Example Usage (from main pipeline):**
 ```python
