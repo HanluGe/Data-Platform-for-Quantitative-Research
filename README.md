@@ -84,7 +84,7 @@ The **Data Catalog** provides a structured, metadata-rich inventory of all datas
 ---
 
 #### Sample Dataset Metadata Schema
-
+```
 {
   "name": "close.1day",
   "description": "Daily closing price for the asset.",
@@ -95,6 +95,7 @@ The **Data Catalog** provides a structured, metadata-rich inventory of all datas
   },
   "processed": true
 }
+```
 
 
 ---
