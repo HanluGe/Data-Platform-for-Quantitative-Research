@@ -221,7 +221,7 @@ aggregate_by_interval(interval: str) → pd.DataFrame
 ---
 
 #### Example Usage
-
+```python
 intraday_model = IntradayDataModel(
     timestamp=intraday_data["date"],
     close=intraday_data["close"],
@@ -230,7 +230,7 @@ intraday_model = IntradayDataModel(
 )
 
 aggregated = intraday_model.aggregate_by_interval("30min")
-
+```
 
 
 
